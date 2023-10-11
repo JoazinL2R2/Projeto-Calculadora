@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora m² Casa/Ap</title>
+    <link rel="stylesheet" href="casa.css">
+    <script src="casa.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora De Imoveis</h1>
+    </header>
+
+    <div id="container">
+            <div id="casa">
+                <form action="" onsubmit="Casa()"></form>
+                    <h1>CASA</h1>
+                    <p><label for="Tamanho">Informe o tamanho do imovel em m²:</label></p>
+                    <input type="number" id="MquadradoCasa">
+                    <p><label for="quartos">Informe o Numero de quartos na casa:</label></p>
+                    <input type="number" id="QuartosCasa">
+                    <p><label for="preco">Informe o valor do M²:</label></p>
+                    <input type="number" id="PrecoMquadrado">
+                    <p><input type="submit" value="Calcular" id="Bcalcular" onclick="Casa()"></p>
+                </form>    
+            </div>
+        
+            <div id="ap">
+                <form action="" onsubmit=""></form>
+                    <h1>APARTAMENTO</h1>
+                    <p><label for="TamanhoAp">Informe o tamanho do Apartamento em m²:</label></p>
+                    <input type="number" id="MquadradoAp">
+                    <p><label for="QuartosAp">Informe o numero de quartos no Apartamento:</label></p>
+                    <input type="number" id="QuartosAp">
+                    <p><label for="Andar">Informe o Andar do Apartamento:</label></p>
+                    <input type="number" id="Andar">
+                    <p><label for="preco">Informe o valor do M²:</label></p>
+                    <input type="number" id="PrecoMquadrado">
+                    <p><label for="taxa">Informe a taxa(Em percentagem) de acrescimo para o andar:</label></p>
+                    <input type="number" id="Taxa:">
+                    <p><input type="submit" value="Calcular" id="Bcalcular" onclick=""></p>
+                </form> 
+            </div>
+    </div>
+    <footer>
+        direitos reservados &copy; BNE
+    </footer>
+</body>
+</html>

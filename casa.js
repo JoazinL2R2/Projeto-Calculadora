@@ -1,7 +1,7 @@
 function Casa(){
-    metros = parseFloat(document.getElementById('MquadradoCasa').value)
-    quartos = parseFloat(document.getElementById('QuartosCasa').value)
-    metro2 = parseFloat(document.getElementById('PrecoMquadrado').value)
+    metros = document.getElementById('MquadradoCasa').value
+    quartos = document.getElementById('QuartosCasa').value
+    metro2 = document.getElementById('PrecoMquadrado').value
     let total
 
     if(metros == '' || quartos == '' || metro2 == ''){
@@ -34,11 +34,11 @@ function Casa(){
   }  
 }
 function Apartamento(){
-    metros = parseFloat(document.getElementById('MquadradoAp').value)
-    quartos = parseFloat(document.getElementById('QuartosAp').value)
-    andar = parseFloat(document.getElementById('Andar').value)
-    metroquadrado = parseFloat(document.getElementById('PrecoMquadrado').value)
-    taxa = parseFloat(document.getElementById('Taxa').value)
+    metros = document.getElementById('MquadradoAp').value
+    quartos = document.getElementById('QuartosAp').value
+    andar = document.getElementById('Andar').value
+    metroquadrado = document.getElementById('PrecoMquadrado').value
+    taxa = document.getElementById('Taxa').value
     taxa = taxa /100
     let total
     if(metros == '' || quartos == '' || andar == '' || metroquadrado == '' || taxa == ''){
